@@ -11,11 +11,11 @@ public static class AtividadeDez
 
         if ((numero % 2) == 0)
         {
-            Console.WriteLine("Esse número é positivo.");
+            Console.WriteLine("Esse número é par.");
         }
         else
         {
-            Console.WriteLine("Esse número é negativo");
+            Console.WriteLine("Esse número é ímpar.");
         }
 
     }
