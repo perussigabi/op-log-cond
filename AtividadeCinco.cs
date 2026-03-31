@@ -5,14 +5,14 @@ public static class AtividadeCinco
 {
     public static void Executar()
     {
-        double maca;
-      double macaValor = 0;
-      double totalDaCompra;
+        int maca;
+        double macaValor = 0;
+        double totalDaCompra;
 
         Console.WriteLine("Quantas maças você irá comprar?");
-        maca = double.Parse(Console.ReadLine()!);
+        maca = int.Parse(Console.ReadLine()!);
 
-        if (maca <=12)
+        if (maca <= 12)
         {
             macaValor = 0.30;
         }
@@ -21,7 +21,7 @@ public static class AtividadeCinco
             macaValor = 0.25;
         }
         totalDaCompra = maca * macaValor;
-        
+
         Console.WriteLine($"O valor de sua compra é {totalDaCompra:F2}.");
     }
 }
