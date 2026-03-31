@@ -7,11 +7,11 @@ public static class AtividadeDois
         string letra;
 
         Console.WriteLine("Digite uma letra:");
-        letra = (Console.ReadLine()!);
+        letra = Console.ReadLine()!.ToLower();
 
         Console.Clear();
 
-        if (letra != "a" || letra != "e" || letra != "i" ||  letra != "o" ||  letra != "u")
+        if (letra != "a" || letra != "e" || letra != "i" || letra != "o" || letra != "u")
         {
             Console.WriteLine("Essa letra é uma consoante.");
         }
